@@ -12,7 +12,11 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(Images/BackgroundImages_2.jpg), linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    /* background: linear-gradient(rgb(47,150,163), rgb(48,62,143)); */
     
 }
 
@@ -43,10 +47,10 @@ body {
     color: whitesmoke;
 }
 
-.notification{
+/* .notification{
     background-color: #f8d7da;
     display: none;
-}
+} */
 
 /* .notification p{
     color: #721c24;
